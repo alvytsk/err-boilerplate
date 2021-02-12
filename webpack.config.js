@@ -6,6 +6,7 @@ var path = require("path");
 
 module.exports = (env, argv) => {
   console.log(env);
+
   return {
     entry: ["./src/index.tsx"],
     output: {
