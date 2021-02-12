@@ -9,7 +9,7 @@
   "scripts": {
     "build": "webpack --mode=production",
     "start": "webpack serve --mode=development",
-    "electron:dev": ""
+    "electron:dev": "webpack --mode=development && electron ."
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
